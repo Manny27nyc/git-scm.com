@@ -86,7 +86,7 @@ GEM
     database_cleaner-core (2.0.1)
     debug_inspector (1.1.0)
     diff-lcs (1.4.4)
-    diffy (3.4.0)
+    diffy (3.4.2)
     dotenv (2.7.6)
     dotenv-rails (2.7.6)
       dotenv (= 2.7.6)
@@ -328,7 +328,7 @@ DEPENDENCIES
   better_errors
   binding_of_caller
   database_cleaner
-  diffy
+  diffy (>= 3.4.1)
   dotenv-rails
   elasticsearch (= 2.0.2)
   fabrication

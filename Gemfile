@@ -11,7 +11,7 @@ gem "iso8601"
 gem "octokit"
 gem "puma"
 
-gem "diffy"
+gem "diffy", ">= 3.4.1"
 gem "nokogiri"
 
 # Assets

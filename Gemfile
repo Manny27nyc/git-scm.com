@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 ruby "2.7.3"
 
-gem "rails", "~> 6.0"
+gem "rails", "~> 6.1", ">= 6.1.4.1"
 
 gem "asciidoctor", "~> 2.0.0"
 gem "elasticsearch", "2.0.2"
@@ -12,7 +12,7 @@ gem "octokit"
 gem "puma"
 
 gem "diffy"
-gem "nokogiri"
+gem "nokogiri", ">= 1.13.9"
 
 # Assets
 gem "sass-rails"

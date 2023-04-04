@@ -3,16 +3,16 @@
 source "https://rubygems.org"
 ruby "2.7.3"
 
-gem "rails", "~> 6.0"
+gem "rails", "~> 6.1", ">= 6.1.7.3"
 
 gem "asciidoctor", "~> 2.0.0"
 gem "elasticsearch", "2.0.2"
 gem "iso8601"
 gem "octokit"
-gem "puma"
+gem "puma", ">= 5.6.4"
 
-gem "diffy"
-gem "nokogiri"
+gem "diffy", ">= 3.4.1"
+gem "nokogiri", ">= 1.13.9"
 
 # Assets
 gem "sass-rails"

@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 ruby "2.7.3"
 
-gem "rails", "~> 6.0"
+gem "rails", "~> 6.1", ">= 6.1.7.5"
 
 gem "asciidoctor", "~> 2.0.0"
 gem "elasticsearch", "2.0.2"
@@ -26,20 +26,20 @@ group :development do
 end
 
 group :development, :test do
-  gem "dotenv-rails"
+  gem "dotenv-rails", ">= 2.8.0"
   gem "listen"
   gem "pry-byebug"
-  gem "rubocop-github"
+  gem "rubocop-github", ">= 0.17.0"
   gem "ruby-prof"
   gem "sqlite3"
 end
 
 group :test do
-  gem "database_cleaner"
+  gem "database_cleaner", ">= 2.0.2"
   gem "fabrication"
   gem "factory_bot_rails"
   gem "rails-controller-testing"
-  gem "rspec-rails"
+  gem "rspec-rails", ">= 5.0.3"
   gem "shoulda"
   gem "vcr"
   gem "webmock"

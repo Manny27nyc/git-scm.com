@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 ruby "2.7.3"
 
-gem "rails", "~> 6.0"
+gem "rails", "~> 7.1", ">= 7.1.0"
 
 gem "asciidoctor", "~> 2.0.0"
 gem "elasticsearch", "2.0.2"

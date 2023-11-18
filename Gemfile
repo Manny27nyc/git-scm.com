@@ -37,7 +37,7 @@ end
 group :test do
   gem "database_cleaner"
   gem "fabrication"
-  gem "factory_bot_rails"
+  gem "factory_bot_rails", ">= 6.3.0"
   gem "rails-controller-testing"
   gem "rspec-rails"
   gem "shoulda"

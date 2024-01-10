@@ -9,7 +9,7 @@ gem "asciidoctor", "~> 2.0.0"
 gem "elasticsearch", "2.0.2"
 gem "iso8601"
 gem "octokit"
-gem "puma"
+gem "puma", ">= 5.6.8"
 
 gem "diffy"
 gem "nokogiri"

@@ -26,7 +26,7 @@ group :development do
 end
 
 group :development, :test do
-  gem "dotenv-rails"
+  gem "dotenv-rails", ">= 2.8.0"
   gem "listen"
   gem "pry-byebug"
   gem "rubocop-github"
@@ -35,11 +35,11 @@ group :development, :test do
 end
 
 group :test do
-  gem "database_cleaner"
+  gem "database_cleaner", ">= 2.0.2"
   gem "fabrication"
-  gem "factory_bot_rails"
+  gem "factory_bot_rails", ">= 6.3.0"
   gem "rails-controller-testing"
-  gem "rspec-rails"
+  gem "rspec-rails", ">= 5.0.3"
   gem "shoulda"
   gem "vcr"
   gem "webmock"
